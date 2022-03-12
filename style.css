@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* 
+- Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%)
+
+### Neutral
+
+- Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%)
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    min-height: 100vh;
+}
+
+.container {
+    width: 900px;
+    display: flex;
+}
+
+.perfil-warap {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+}
+
+.dados {
+    background-color: hsl(246, 80%, 60%);
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.dados img {
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.dados p {
+    font-size: .5rem;
+    color: rgba(255, 255, 255, 0.418);
+    margin-top: 20px;
+}
+
+.dados h1 {
+    font-size: 1.5rem;
+}
+
+.manu-warap {
+    padding: 20px;
+}
+
+.manu {
+    line-height: 25px;
+}
+
+.item {
+    font-size: .7rem;
+    /* margin-bottom: 10px; */
+}
+
+.tarefas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.work {
+    background-color: hsl(15, 100%, 70%);
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.in-work {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    height: 130px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: .6rem;
+    margin-bottom: 15px;
+}
+
+.work h2 {
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: .6rem;
+    color: rgba(255, 255, 255, 0.555);
+}
+

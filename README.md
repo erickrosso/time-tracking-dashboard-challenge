@@ -2,7 +2,7 @@
 
 ![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Welcome! 👋 ----- https://erickrosso.github.io/time-tracking-dashboard-challenge/ -----
 
 Thanks for checking out this front-end coding challenge.
 
